@@ -28,7 +28,7 @@ namespace Ejercicio_Practico_Colegio
         private void FrmMenuPrincipal_Load(object sender, EventArgs e)
         {
             timer1.Interval = 1000;                         //configura timer para que se ejecute cada segundo
-            
+
             timer1.Enabled = true;                         //activar timer
         }
 
@@ -42,6 +42,12 @@ namespace Ejercicio_Practico_Colegio
         {
             FrmAltaAlumno frmAltaAlumno = new FrmAltaAlumno();
             frmAltaAlumno.Show();
+        }
+
+        private void btn_RegistrarCurso_Click(object sender, EventArgs e)
+        {
+            FrmAltaCurso frmAltaCurso = new FrmAltaCurso();
+            frmAltaCurso.Show();
         }
     }
 }

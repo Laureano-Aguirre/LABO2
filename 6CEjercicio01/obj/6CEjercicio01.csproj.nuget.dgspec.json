@@ -1,29 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\6CEjercicio01\\6CEjercicio01.csproj": {}
+    "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\6CEjercicio01\\6CEjercicio01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\6CEjercicio01\\6CEjercicio01.csproj": {
+    "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\6CEjercicio01\\6CEjercicio01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\6CEjercicio01\\6CEjercicio01.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\6CEjercicio01\\6CEjercicio01.csproj",
         "projectName": "6CEjercicio01",
-        "projectPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\6CEjercicio01\\6CEjercicio01.csproj",
-        "packagesPath": "C:\\Users\\Lau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\6CEjercicio01\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\6CEjercicio01\\6CEjercicio01.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\6CEjercicio01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -59,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

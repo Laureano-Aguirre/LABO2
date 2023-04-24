@@ -28,168 +28,168 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.lb_Bienvenida = new System.Windows.Forms.Label();
-            this.gpb_Registrar = new System.Windows.Forms.GroupBox();
-            this.btn_RegistrarClas = new System.Windows.Forms.Button();
-            this.btn_RegistrarMat = new System.Windows.Forms.Button();
-            this.btn_RegistrarAlum = new System.Windows.Forms.Button();
-            this.gpb_Ver = new System.Windows.Forms.GroupBox();
-            this.btn_VerClase = new System.Windows.Forms.Button();
-            this.btn_VerMateria = new System.Windows.Forms.Button();
-            this.btn_VerAlumno = new System.Windows.Forms.Button();
-            this.pb_MenPrinLogo = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.lb_Hora = new System.Windows.Forms.Label();
-            this.gpb_Registrar.SuspendLayout();
-            this.gpb_Ver.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_MenPrinLogo)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            lb_Bienvenida = new Label();
+            gpb_Registrar = new GroupBox();
+            btn_RegistrarCurso = new Button();
+            btn_RegistrarMat = new Button();
+            btn_RegistrarAlum = new Button();
+            gpb_Ver = new GroupBox();
+            btn_VerCurso = new Button();
+            btn_VerMateria = new Button();
+            btn_VerAlumno = new Button();
+            pb_MenPrinLogo = new PictureBox();
+            timer1 = new System.Windows.Forms.Timer(components);
+            lb_Hora = new Label();
+            gpb_Registrar.SuspendLayout();
+            gpb_Ver.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pb_MenPrinLogo).BeginInit();
+            SuspendLayout();
             // 
             // lb_Bienvenida
             // 
-            this.lb_Bienvenida.AutoSize = true;
-            this.lb_Bienvenida.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lb_Bienvenida.Location = new System.Drawing.Point(55, 31);
-            this.lb_Bienvenida.Name = "lb_Bienvenida";
-            this.lb_Bienvenida.Size = new System.Drawing.Size(50, 18);
-            this.lb_Bienvenida.TabIndex = 0;
-            this.lb_Bienvenida.Text = "label1";
+            lb_Bienvenida.AutoSize = true;
+            lb_Bienvenida.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_Bienvenida.Location = new Point(55, 31);
+            lb_Bienvenida.Name = "lb_Bienvenida";
+            lb_Bienvenida.Size = new Size(50, 18);
+            lb_Bienvenida.TabIndex = 0;
+            lb_Bienvenida.Text = "label1";
             // 
             // gpb_Registrar
             // 
-            this.gpb_Registrar.Controls.Add(this.btn_RegistrarClas);
-            this.gpb_Registrar.Controls.Add(this.btn_RegistrarMat);
-            this.gpb_Registrar.Controls.Add(this.btn_RegistrarAlum);
-            this.gpb_Registrar.Location = new System.Drawing.Point(38, 89);
-            this.gpb_Registrar.Name = "gpb_Registrar";
-            this.gpb_Registrar.Size = new System.Drawing.Size(307, 100);
-            this.gpb_Registrar.TabIndex = 2;
-            this.gpb_Registrar.TabStop = false;
-            this.gpb_Registrar.Text = "Registrar";
+            gpb_Registrar.Controls.Add(btn_RegistrarCurso);
+            gpb_Registrar.Controls.Add(btn_RegistrarMat);
+            gpb_Registrar.Controls.Add(btn_RegistrarAlum);
+            gpb_Registrar.Location = new Point(38, 89);
+            gpb_Registrar.Name = "gpb_Registrar";
+            gpb_Registrar.Size = new Size(307, 100);
+            gpb_Registrar.TabIndex = 2;
+            gpb_Registrar.TabStop = false;
+            gpb_Registrar.Text = "Registrar";
             // 
-            // btn_RegistrarClas
+            // btn_RegistrarCurso
             // 
-            this.btn_RegistrarClas.Location = new System.Drawing.Point(215, 43);
-            this.btn_RegistrarClas.Name = "btn_RegistrarClas";
-            this.btn_RegistrarClas.Size = new System.Drawing.Size(75, 23);
-            this.btn_RegistrarClas.TabIndex = 2;
-            this.btn_RegistrarClas.Text = "Clase";
-            this.btn_RegistrarClas.UseVisualStyleBackColor = true;
+            btn_RegistrarCurso.Location = new Point(215, 43);
+            btn_RegistrarCurso.Name = "btn_RegistrarCurso";
+            btn_RegistrarCurso.Size = new Size(75, 23);
+            btn_RegistrarCurso.TabIndex = 2;
+            btn_RegistrarCurso.Text = "Curso";
+            btn_RegistrarCurso.UseVisualStyleBackColor = true;
+            btn_RegistrarCurso.Click += btn_RegistrarCurso_Click;
             // 
             // btn_RegistrarMat
             // 
-            this.btn_RegistrarMat.Location = new System.Drawing.Point(115, 43);
-            this.btn_RegistrarMat.Name = "btn_RegistrarMat";
-            this.btn_RegistrarMat.Size = new System.Drawing.Size(75, 23);
-            this.btn_RegistrarMat.TabIndex = 1;
-            this.btn_RegistrarMat.Text = "Materia";
-            this.btn_RegistrarMat.UseVisualStyleBackColor = true;
+            btn_RegistrarMat.Location = new Point(115, 43);
+            btn_RegistrarMat.Name = "btn_RegistrarMat";
+            btn_RegistrarMat.Size = new Size(75, 23);
+            btn_RegistrarMat.TabIndex = 1;
+            btn_RegistrarMat.Text = "Materia";
+            btn_RegistrarMat.UseVisualStyleBackColor = true;
             // 
             // btn_RegistrarAlum
             // 
-            this.btn_RegistrarAlum.Location = new System.Drawing.Point(17, 43);
-            this.btn_RegistrarAlum.Name = "btn_RegistrarAlum";
-            this.btn_RegistrarAlum.Size = new System.Drawing.Size(75, 23);
-            this.btn_RegistrarAlum.TabIndex = 0;
-            this.btn_RegistrarAlum.Text = "Alumno";
-            this.btn_RegistrarAlum.UseVisualStyleBackColor = true;
-            this.btn_RegistrarAlum.Click += new System.EventHandler(this.btn_RegistrarAlum_Click);
+            btn_RegistrarAlum.Location = new Point(17, 43);
+            btn_RegistrarAlum.Name = "btn_RegistrarAlum";
+            btn_RegistrarAlum.Size = new Size(75, 23);
+            btn_RegistrarAlum.TabIndex = 0;
+            btn_RegistrarAlum.Text = "Alumno";
+            btn_RegistrarAlum.UseVisualStyleBackColor = true;
+            btn_RegistrarAlum.Click += btn_RegistrarAlum_Click;
             // 
             // gpb_Ver
             // 
-            this.gpb_Ver.Controls.Add(this.btn_VerClase);
-            this.gpb_Ver.Controls.Add(this.btn_VerMateria);
-            this.gpb_Ver.Controls.Add(this.btn_VerAlumno);
-            this.gpb_Ver.Location = new System.Drawing.Point(452, 89);
-            this.gpb_Ver.Name = "gpb_Ver";
-            this.gpb_Ver.Size = new System.Drawing.Size(307, 100);
-            this.gpb_Ver.TabIndex = 3;
-            this.gpb_Ver.TabStop = false;
-            this.gpb_Ver.Text = "Ver";
+            gpb_Ver.Controls.Add(btn_VerCurso);
+            gpb_Ver.Controls.Add(btn_VerMateria);
+            gpb_Ver.Controls.Add(btn_VerAlumno);
+            gpb_Ver.Location = new Point(452, 89);
+            gpb_Ver.Name = "gpb_Ver";
+            gpb_Ver.Size = new Size(307, 100);
+            gpb_Ver.TabIndex = 3;
+            gpb_Ver.TabStop = false;
+            gpb_Ver.Text = "Ver";
             // 
-            // btn_VerClase
+            // btn_VerCurso
             // 
-            this.btn_VerClase.Location = new System.Drawing.Point(215, 43);
-            this.btn_VerClase.Name = "btn_VerClase";
-            this.btn_VerClase.Size = new System.Drawing.Size(75, 23);
-            this.btn_VerClase.TabIndex = 2;
-            this.btn_VerClase.Text = "Clase";
-            this.btn_VerClase.UseVisualStyleBackColor = true;
+            btn_VerCurso.Location = new Point(215, 43);
+            btn_VerCurso.Name = "btn_VerCurso";
+            btn_VerCurso.Size = new Size(75, 23);
+            btn_VerCurso.TabIndex = 2;
+            btn_VerCurso.Text = "Curso";
+            btn_VerCurso.UseVisualStyleBackColor = true;
             // 
             // btn_VerMateria
             // 
-            this.btn_VerMateria.Location = new System.Drawing.Point(115, 43);
-            this.btn_VerMateria.Name = "btn_VerMateria";
-            this.btn_VerMateria.Size = new System.Drawing.Size(75, 23);
-            this.btn_VerMateria.TabIndex = 1;
-            this.btn_VerMateria.Text = "Materia";
-            this.btn_VerMateria.UseVisualStyleBackColor = true;
+            btn_VerMateria.Location = new Point(115, 43);
+            btn_VerMateria.Name = "btn_VerMateria";
+            btn_VerMateria.Size = new Size(75, 23);
+            btn_VerMateria.TabIndex = 1;
+            btn_VerMateria.Text = "Materia";
+            btn_VerMateria.UseVisualStyleBackColor = true;
             // 
             // btn_VerAlumno
             // 
-            this.btn_VerAlumno.Location = new System.Drawing.Point(17, 43);
-            this.btn_VerAlumno.Name = "btn_VerAlumno";
-            this.btn_VerAlumno.Size = new System.Drawing.Size(75, 23);
-            this.btn_VerAlumno.TabIndex = 0;
-            this.btn_VerAlumno.Text = "Alumno";
-            this.btn_VerAlumno.UseVisualStyleBackColor = true;
+            btn_VerAlumno.Location = new Point(17, 43);
+            btn_VerAlumno.Name = "btn_VerAlumno";
+            btn_VerAlumno.Size = new Size(75, 23);
+            btn_VerAlumno.TabIndex = 0;
+            btn_VerAlumno.Text = "Alumno";
+            btn_VerAlumno.UseVisualStyleBackColor = true;
             // 
             // pb_MenPrinLogo
             // 
-            this.pb_MenPrinLogo.Image = global::Ejercicio_Practico_Colegio.Properties.Resources.imagen_huergo;
-            this.pb_MenPrinLogo.Location = new System.Drawing.Point(73, 213);
-            this.pb_MenPrinLogo.Name = "pb_MenPrinLogo";
-            this.pb_MenPrinLogo.Size = new System.Drawing.Size(222, 225);
-            this.pb_MenPrinLogo.TabIndex = 4;
-            this.pb_MenPrinLogo.TabStop = false;
+            pb_MenPrinLogo.Image = Properties.Resources.imagen_huergo;
+            pb_MenPrinLogo.Location = new Point(73, 213);
+            pb_MenPrinLogo.Name = "pb_MenPrinLogo";
+            pb_MenPrinLogo.Size = new Size(222, 225);
+            pb_MenPrinLogo.TabIndex = 4;
+            pb_MenPrinLogo.TabStop = false;
             // 
             // timer1
             // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            timer1.Tick += timer1_Tick;
             // 
             // lb_Hora
             // 
-            this.lb_Hora.AutoSize = true;
-            this.lb_Hora.Font = new System.Drawing.Font("Segoe UI", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lb_Hora.Location = new System.Drawing.Point(480, 282);
-            this.lb_Hora.Name = "lb_Hora";
-            this.lb_Hora.Size = new System.Drawing.Size(194, 81);
-            this.lb_Hora.TabIndex = 5;
-            this.lb_Hora.Text = "label1";
+            lb_Hora.AutoSize = true;
+            lb_Hora.Font = new Font("Segoe UI", 45F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_Hora.Location = new Point(480, 282);
+            lb_Hora.Name = "lb_Hora";
+            lb_Hora.Size = new Size(194, 81);
+            lb_Hora.TabIndex = 5;
+            lb_Hora.Text = "label1";
             // 
             // FrmMenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lb_Hora);
-            this.Controls.Add(this.pb_MenPrinLogo);
-            this.Controls.Add(this.gpb_Ver);
-            this.Controls.Add(this.gpb_Registrar);
-            this.Controls.Add(this.lb_Bienvenida);
-            this.Name = "FrmMenuPrincipal";
-            this.Text = "Menu Principal";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMenuPrincipal_FormClosing);
-            this.Load += new System.EventHandler(this.FrmMenuPrincipal_Load);
-            this.gpb_Registrar.ResumeLayout(false);
-            this.gpb_Ver.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pb_MenPrinLogo)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lb_Hora);
+            Controls.Add(pb_MenPrinLogo);
+            Controls.Add(gpb_Ver);
+            Controls.Add(gpb_Registrar);
+            Controls.Add(lb_Bienvenida);
+            Name = "FrmMenuPrincipal";
+            Text = "Menu Principal";
+            FormClosing += FrmMenuPrincipal_FormClosing;
+            Load += FrmMenuPrincipal_Load;
+            gpb_Registrar.ResumeLayout(false);
+            gpb_Ver.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pb_MenPrinLogo).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Label lb_Bienvenida;
         private GroupBox gpb_Registrar;
-        private Button btn_RegistrarClas;
+        private Button btn_RegistrarCurso;
         private Button btn_RegistrarMat;
         private Button btn_RegistrarAlum;
         private GroupBox gpb_Ver;
-        private Button btn_VerClase;
+        private Button btn_VerCurso;
         private Button btn_VerMateria;
         private Button btn_VerAlumno;
         private PictureBox pb_MenPrinLogo;

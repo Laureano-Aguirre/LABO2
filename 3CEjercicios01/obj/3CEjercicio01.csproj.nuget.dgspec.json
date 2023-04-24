@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\3CEjercicios01\\3CEjercicio01.csproj": {}
+    "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\3CEjercicios01\\3CEjercicio01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\3CEjercicios01\\3CEjercicio01.csproj": {
+    "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\3CEjercicios01\\3CEjercicio01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\3CEjercicios01\\3CEjercicio01.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\3CEjercicios01\\3CEjercicio01.csproj",
         "projectName": "3CEjercicio01",
-        "projectPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\3CEjercicios01\\3CEjercicio01.csproj",
-        "packagesPath": "C:\\Users\\Lau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\3CEjercicios01\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\3CEjercicios01\\3CEjercicio01.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\3CEjercicios01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj": {
-                "projectPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj"
+              "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj"
               }
             }
           }
@@ -60,21 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj": {
+    "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj",
         "projectName": "BibliotecaDeClasesEj2",
-        "projectPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj",
-        "packagesPath": "C:\\Users\\Lau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\BibliotecaDeClasesEj2\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\BibliotecaDeClasesEj2\\BibliotecaDeClasesEj2.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Desktop\\Repo LABO2 GitHub\\LABO2\\BibliotecaDeClasesEj2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +81,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -116,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
