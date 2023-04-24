@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "3CEjercicio01/1.0.0": {
+        "dependencies": {
+          "BibliotecaDeClasesEj1": "1.0.0"
+        },
+        "runtime": {
+          "3CEjercicio01.dll": {}
+        }
+      },
+      "BibliotecaDeClasesEj1/1.0.0": {
+        "runtime": {
+          "BibliotecaDeClasesEj1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "3CEjercicio01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BibliotecaDeClasesEj1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

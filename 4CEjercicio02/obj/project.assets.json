@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Billetes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Billetes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Billetes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Billetes/1.0.0": {
+      "type": "project",
+      "path": "../4CBibliotecaDeClasesEj2/Billetes.csproj",
+      "msbuildProject": "../4CBibliotecaDeClasesEj2/Billetes.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Billetes >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Lau\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\4CEjercicio02\\4CEjercicio02.csproj",
+      "projectName": "4CEjercicio02",
+      "projectPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\4CEjercicio02\\4CEjercicio02.csproj",
+      "packagesPath": "C:\\Users\\Lau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\4CEjercicio02\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Lau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\4CBibliotecaDeClasesEj2\\Billetes.csproj": {
+              "projectPath": "C:\\Users\\Lau\\Desktop\\PROGRA Y LABO 2\\ClasesYEjercicios\\4CBibliotecaDeClasesEj2\\Billetes.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
