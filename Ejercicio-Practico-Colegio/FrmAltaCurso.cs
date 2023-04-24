@@ -15,9 +15,11 @@ namespace Ejercicio_Practico_Colegio
         public FrmAltaCurso()
         {
             InitializeComponent();
-            
+
             cmb_AltaCursoDisponibles.Visible = false;
             rch_AltaCursoListaUso.Visible = false;
+            lb_AltaCursoEnUso.Visible = false;
+            lb_AltaCursoDisponible.Visible = false;
         }
 
         private void rdb_RegisCurso1Año_CheckedChanged(object sender, EventArgs e)
@@ -27,6 +29,8 @@ namespace Ejercicio_Practico_Colegio
                 lb_AltaCursoAño.Visible = true;
                 lb_AltaCursoAño.Text = "1ER AÑO";
                 rch_AltaCursoListaUso.Visible = true;
+                lb_AltaCursoEnUso.Visible = true;
+                lb_AltaCursoDisponible.Visible = true;
             }
         }
 
@@ -37,6 +41,8 @@ namespace Ejercicio_Practico_Colegio
                 lb_AltaCursoAño.Visible = true;
                 lb_AltaCursoAño.Text = "2DO AÑO";
                 rch_AltaCursoListaUso.Visible = true;
+                lb_AltaCursoEnUso.Visible = true;
+                lb_AltaCursoDisponible.Visible = true;
             }
         }
 
@@ -47,6 +53,8 @@ namespace Ejercicio_Practico_Colegio
                 lb_AltaCursoAño.Visible = true;
                 lb_AltaCursoAño.Text = "3ER AÑO";
                 rch_AltaCursoListaUso.Visible = true;
+                lb_AltaCursoEnUso.Visible = true;
+                lb_AltaCursoDisponible.Visible = true;
             }
         }
 
@@ -57,6 +65,8 @@ namespace Ejercicio_Practico_Colegio
                 lb_AltaCursoAño.Visible = true;
                 lb_AltaCursoAño.Text = "4TO AÑO";
                 rch_AltaCursoListaUso.Visible = true;
+                lb_AltaCursoEnUso.Visible = true;
+                lb_AltaCursoDisponible.Visible = true;
             }
         }
 
@@ -67,6 +77,8 @@ namespace Ejercicio_Practico_Colegio
                 lb_AltaCursoAño.Visible = true;
                 lb_AltaCursoAño.Text = "5TO AÑO";
                 rch_AltaCursoListaUso.Visible = true;
+                lb_AltaCursoEnUso.Visible = true;
+                lb_AltaCursoDisponible.Visible = true;
             }
         }
 
@@ -77,11 +89,12 @@ namespace Ejercicio_Practico_Colegio
             cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} C");
             cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} D");
             lb_AltaCursoAño.Visible = false;
-            rdb_RegisCurso1Año.Checked = false;
-            rdb_RegisCurso2Año.Checked = false;
-            rdb_RegisCurso3Año.Checked = false;
-            rdb_RegisCurso4Año.Checked = false;
-            rdb_RegisCurso5Año.Checked = false;
+
+            //rdb_RegisCurso1Año.Checked = false;
+            //rdb_RegisCurso2Año.Checked = false;
+            //rdb_RegisCurso3Año.Checked = false;
+            //rdb_RegisCurso4Año.Checked = false;
+            //rdb_RegisCurso5Año.Checked = false;
         }
     }
 }

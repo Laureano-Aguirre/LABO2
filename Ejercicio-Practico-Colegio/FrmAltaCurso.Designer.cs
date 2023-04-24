@@ -38,7 +38,7 @@
             lb_AltaCursoAño = new Label();
             lb_AltaCursoEnUso = new Label();
             cmb_AltaCursoDisponibles = new ComboBox();
-            label1 = new Label();
+            lb_AltaCursoDisponible = new Label();
             SuspendLayout();
             // 
             // lb_AltaCursoSeleccionarAño
@@ -58,7 +58,6 @@
             rdb_RegisCurso1Año.Name = "rdb_RegisCurso1Año";
             rdb_RegisCurso1Año.Size = new Size(66, 19);
             rdb_RegisCurso1Año.TabIndex = 1;
-            rdb_RegisCurso1Año.TabStop = true;
             rdb_RegisCurso1Año.Text = "1er Año";
             rdb_RegisCurso1Año.UseVisualStyleBackColor = true;
             rdb_RegisCurso1Año.CheckedChanged += rdb_RegisCurso1Año_CheckedChanged;
@@ -70,7 +69,6 @@
             rdb_RegisCurso2Año.Name = "rdb_RegisCurso2Año";
             rdb_RegisCurso2Año.Size = new Size(70, 19);
             rdb_RegisCurso2Año.TabIndex = 2;
-            rdb_RegisCurso2Año.TabStop = true;
             rdb_RegisCurso2Año.Text = "2do Año";
             rdb_RegisCurso2Año.UseVisualStyleBackColor = true;
             rdb_RegisCurso2Año.CheckedChanged += rdb_RegisCurso2Año_CheckedChanged;
@@ -82,7 +80,6 @@
             rdb_RegisCurso3Año.Name = "rdb_RegisCurso3Año";
             rdb_RegisCurso3Año.Size = new Size(66, 19);
             rdb_RegisCurso3Año.TabIndex = 3;
-            rdb_RegisCurso3Año.TabStop = true;
             rdb_RegisCurso3Año.Text = "3er Año";
             rdb_RegisCurso3Año.UseVisualStyleBackColor = true;
             rdb_RegisCurso3Año.CheckedChanged += rdb_RegisCurso3Año_CheckedChanged;
@@ -94,7 +91,6 @@
             rdb_RegisCurso4Año.Name = "rdb_RegisCurso4Año";
             rdb_RegisCurso4Año.Size = new Size(67, 19);
             rdb_RegisCurso4Año.TabIndex = 4;
-            rdb_RegisCurso4Año.TabStop = true;
             rdb_RegisCurso4Año.Text = "4to Año";
             rdb_RegisCurso4Año.UseVisualStyleBackColor = true;
             rdb_RegisCurso4Año.CheckedChanged += rdb_RegisCurso4Año_CheckedChanged;
@@ -106,7 +102,6 @@
             rdb_RegisCurso5Año.Name = "rdb_RegisCurso5Año";
             rdb_RegisCurso5Año.Size = new Size(67, 19);
             rdb_RegisCurso5Año.TabIndex = 5;
-            rdb_RegisCurso5Año.TabStop = true;
             rdb_RegisCurso5Año.Text = "5to Año";
             rdb_RegisCurso5Año.UseVisualStyleBackColor = true;
             rdb_RegisCurso5Año.CheckedChanged += rdb_RegisCurso5Año_CheckedChanged;
@@ -145,14 +140,14 @@
             cmb_AltaCursoDisponibles.Size = new Size(121, 23);
             cmb_AltaCursoDisponibles.TabIndex = 9;
             // 
-            // label1
+            // lb_AltaCursoDisponible
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(45, 195);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 10;
-            label1.Text = "label1";
+            lb_AltaCursoDisponible.AutoSize = true;
+            lb_AltaCursoDisponible.Location = new Point(45, 195);
+            lb_AltaCursoDisponible.Name = "lb_AltaCursoDisponible";
+            lb_AltaCursoDisponible.Size = new Size(109, 15);
+            lb_AltaCursoDisponible.TabIndex = 10;
+            lb_AltaCursoDisponible.Text = "Cursos disponibles:";
             // 
             // FrmAltaCurso
             // 
@@ -160,7 +155,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveBorder;
             ClientSize = new Size(800, 450);
-            Controls.Add(label1);
+            Controls.Add(lb_AltaCursoDisponible);
             Controls.Add(cmb_AltaCursoDisponibles);
             Controls.Add(lb_AltaCursoEnUso);
             Controls.Add(lb_AltaCursoAño);
@@ -190,6 +185,6 @@
         private Label lb_AltaCursoAño;
         private Label lb_AltaCursoEnUso;
         private ComboBox cmb_AltaCursoDisponibles;
-        private Label label1;
+        private Label lb_AltaCursoDisponible;
     }
 }
