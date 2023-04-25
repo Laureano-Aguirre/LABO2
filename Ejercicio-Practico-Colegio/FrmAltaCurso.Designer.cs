@@ -62,6 +62,7 @@
             this.rdb_RegisCurso1Año.TabIndex = 1;
             this.rdb_RegisCurso1Año.Text = "1er Año";
             this.rdb_RegisCurso1Año.UseVisualStyleBackColor = true;
+            this.rdb_RegisCurso1Año.CheckedChanged += new System.EventHandler(this.rdb_RegisCurso1Año_CheckedChanged_1);
             // 
             // rdb_RegisCurso2Año
             // 
@@ -72,6 +73,7 @@
             this.rdb_RegisCurso2Año.TabIndex = 2;
             this.rdb_RegisCurso2Año.Text = "2do Año";
             this.rdb_RegisCurso2Año.UseVisualStyleBackColor = true;
+            this.rdb_RegisCurso2Año.CheckedChanged += new System.EventHandler(this.rdb_RegisCurso2Año_CheckedChanged_1);
             // 
             // rdb_RegisCurso3Año
             // 
@@ -82,6 +84,7 @@
             this.rdb_RegisCurso3Año.TabIndex = 3;
             this.rdb_RegisCurso3Año.Text = "3er Año";
             this.rdb_RegisCurso3Año.UseVisualStyleBackColor = true;
+            this.rdb_RegisCurso3Año.CheckedChanged += new System.EventHandler(this.rdb_RegisCurso3Año_CheckedChanged_1);
             // 
             // rdb_RegisCurso4Año
             // 
@@ -92,6 +95,7 @@
             this.rdb_RegisCurso4Año.TabIndex = 4;
             this.rdb_RegisCurso4Año.Text = "4to Año";
             this.rdb_RegisCurso4Año.UseVisualStyleBackColor = true;
+            this.rdb_RegisCurso4Año.CheckedChanged += new System.EventHandler(this.rdb_RegisCurso4Año_CheckedChanged_1);
             // 
             // rdb_RegisCurso5Año
             // 
@@ -102,6 +106,7 @@
             this.rdb_RegisCurso5Año.TabIndex = 5;
             this.rdb_RegisCurso5Año.Text = "5to Año";
             this.rdb_RegisCurso5Año.UseVisualStyleBackColor = true;
+            this.rdb_RegisCurso5Año.CheckedChanged += new System.EventHandler(this.rdb_RegisCurso5Año_CheckedChanged_1);
             // 
             // rch_AltaCursoListaUso
             // 

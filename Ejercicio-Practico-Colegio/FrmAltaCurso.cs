@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//using Colegio;
 
 namespace Ejercicio_Practico_Colegio
 {
@@ -20,9 +21,22 @@ namespace Ejercicio_Practico_Colegio
             rch_AltaCursoListaUso.Visible = false;
             lb_AltaCursoEnUso.Visible = false;
             lb_AltaCursoDisponible.Visible = false;
+            lb_AltaCursoAño.Visible = false;
         }
 
-        private void rdb_RegisCurso1Año_CheckedChanged(object sender, EventArgs e)
+        private void FrmAltaCurso_Load(object sender, EventArgs e)
+        {
+            
+            lb_AltaCursoAño.Visible = false;
+
+            //rdb_RegisCurso1Año.Checked = false;
+            //rdb_RegisCurso2Año.Checked = false;
+            //rdb_RegisCurso3Año.Checked = false;
+            //rdb_RegisCurso4Año.Checked = false;
+            //rdb_RegisCurso5Año.Checked = false;
+        }
+
+        private void rdb_RegisCurso1Año_CheckedChanged_1(object sender, EventArgs e)
         {
             if (rdb_RegisCurso1Año.Checked == true)
             {
@@ -40,7 +54,7 @@ namespace Ejercicio_Practico_Colegio
             }
         }
 
-        private void rdb_RegisCurso2Año_CheckedChanged(object sender, EventArgs e)
+        private void rdb_RegisCurso2Año_CheckedChanged_1(object sender, EventArgs e)
         {
             if (rdb_RegisCurso2Año.Checked == true)
             {
@@ -58,7 +72,7 @@ namespace Ejercicio_Practico_Colegio
             }
         }
 
-        private void rdb_RegisCurso3Año_CheckedChanged(object sender, EventArgs e)
+        private void rdb_RegisCurso3Año_CheckedChanged_1(object sender, EventArgs e)
         {
             if (rdb_RegisCurso3Año.Checked == true)
             {
@@ -76,7 +90,7 @@ namespace Ejercicio_Practico_Colegio
             }
         }
 
-        private void rdb_RegisCurso4Año_CheckedChanged(object sender, EventArgs e)
+        private void rdb_RegisCurso4Año_CheckedChanged_1(object sender, EventArgs e)
         {
             if (rdb_RegisCurso4Año.Checked == true)
             {
@@ -94,7 +108,7 @@ namespace Ejercicio_Practico_Colegio
             }
         }
 
-        private void rdb_RegisCurso5Año_CheckedChanged(object sender, EventArgs e)
+        private void rdb_RegisCurso5Año_CheckedChanged_1(object sender, EventArgs e)
         {
             if (rdb_RegisCurso5Año.Checked == true)
             {
@@ -110,18 +124,6 @@ namespace Ejercicio_Practico_Colegio
                 cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} C");
                 cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} D");
             }
-        }
-
-        private void FrmAltaCurso_Load(object sender, EventArgs e)
-        {
-            
-            lb_AltaCursoAño.Visible = false;
-
-            //rdb_RegisCurso1Año.Checked = false;
-            //rdb_RegisCurso2Año.Checked = false;
-            //rdb_RegisCurso3Año.Checked = false;
-            //rdb_RegisCurso4Año.Checked = false;
-            //rdb_RegisCurso5Año.Checked = false;
         }
     }
 }
