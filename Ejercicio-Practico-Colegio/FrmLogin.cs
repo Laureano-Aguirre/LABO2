@@ -11,8 +11,8 @@ namespace Ejercicio_Practico_Colegio
         public Login()
         {
             InitializeComponent();
-           // this.BackgroundImage = Image.FromFile("C:/Users/Lau/Downloads/imagen-huergo.png");
-            //this.TransparencyKey = Color.FromArgb(255, 0, 255);
+           this.BackgroundImage = Image.FromFile("C:/Users/Lau/Downloads/imagen-huergo.png");
+            this.TransparencyKey = Color.FromArgb(255, 0, 255);
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 

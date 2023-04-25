@@ -22,3 +22,15 @@ C:\Users\Administrador\Desktop\Repo LABO2 GitHub\LABO2\Colegio\obj\Debug\net6.0\
 C:\Users\Administrador\Desktop\Repo LABO2 GitHub\LABO2\Colegio\obj\Debug\net6.0\refint\Colegio.dll
 C:\Users\Administrador\Desktop\Repo LABO2 GitHub\LABO2\Colegio\obj\Debug\net6.0\Colegio.pdb
 C:\Users\Administrador\Desktop\Repo LABO2 GitHub\LABO2\Colegio\obj\Debug\net6.0\ref\Colegio.dll
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\bin\Debug\net6.0\Colegio.deps.json
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\bin\Debug\net6.0\Colegio.dll
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\bin\Debug\net6.0\Colegio.pdb
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\obj\Debug\net6.0\Colegio.csproj.AssemblyReference.cache
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\obj\Debug\net6.0\Colegio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\obj\Debug\net6.0\Colegio.AssemblyInfoInputs.cache
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\obj\Debug\net6.0\Colegio.AssemblyInfo.cs
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\obj\Debug\net6.0\Colegio.csproj.CoreCompileInputs.cache
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\obj\Debug\net6.0\Colegio.dll
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\obj\Debug\net6.0\refint\Colegio.dll
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\obj\Debug\net6.0\Colegio.pdb
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Colegio\obj\Debug\net6.0\ref\Colegio.dll

@@ -45,3 +45,27 @@ C:\Users\Administrador\Desktop\Repo LABO2 GitHub\LABO2\Ejercicio-Practico-Colegi
 C:\Users\Administrador\Desktop\Repo LABO2 GitHub\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.pdb
 C:\Users\Administrador\Desktop\Repo LABO2 GitHub\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.genruntimeconfig.cache
 C:\Users\Administrador\Desktop\Repo LABO2 GitHub\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\ref\Ejercicio-Practico.dll
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\bin\Debug\net6.0-windows\Ejercicio-Practico.exe
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\bin\Debug\net6.0-windows\Ejercicio-Practico.deps.json
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\bin\Debug\net6.0-windows\Ejercicio-Practico.runtimeconfig.json
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\bin\Debug\net6.0-windows\Ejercicio-Practico.dll
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\bin\Debug\net6.0-windows\Ejercicio-Practico.pdb
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\bin\Debug\net6.0-windows\Colegio.dll
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\bin\Debug\net6.0-windows\Colegio.pdb
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.csproj.AssemblyReference.cache
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio_Practico_Colegio.FrmAltaAlumno.resources
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio_Practico_Colegio.FrmAltaCurso.resources
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio_Practico_Colegio.Login.resources
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio_Practico_Colegio.FrmMenuPrincipal.resources
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio_Practico_Colegio.Properties.Resources.resources
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.csproj.GenerateResource.cache
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.AssemblyInfoInputs.cache
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.AssemblyInfo.cs
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.csproj.CoreCompileInputs.cache
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.csproj.CopyComplete
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.dll
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\refint\Ejercicio-Practico.dll
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.pdb
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\Ejercicio-Practico.genruntimeconfig.cache
+C:\Users\Lau\Desktop\LABO2 REPO\LABO2\Ejercicio-Practico-Colegio\obj\Debug\net6.0-windows\ref\Ejercicio-Practico.dll

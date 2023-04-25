@@ -31,6 +31,12 @@ namespace Ejercicio_Practico_Colegio
                 rch_AltaCursoListaUso.Visible = true;
                 lb_AltaCursoEnUso.Visible = true;
                 lb_AltaCursoDisponible.Visible = true;
+                cmb_AltaCursoDisponibles.Visible = true;
+                cmb_AltaCursoDisponibles.Items.Clear();
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} A");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} B");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} C");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} D");
             }
         }
 
@@ -43,6 +49,12 @@ namespace Ejercicio_Practico_Colegio
                 rch_AltaCursoListaUso.Visible = true;
                 lb_AltaCursoEnUso.Visible = true;
                 lb_AltaCursoDisponible.Visible = true;
+                cmb_AltaCursoDisponibles.Visible = true;
+                cmb_AltaCursoDisponibles.Items.Clear();
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} A");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} B");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} C");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} D");
             }
         }
 
@@ -55,6 +67,12 @@ namespace Ejercicio_Practico_Colegio
                 rch_AltaCursoListaUso.Visible = true;
                 lb_AltaCursoEnUso.Visible = true;
                 lb_AltaCursoDisponible.Visible = true;
+                cmb_AltaCursoDisponibles.Visible = true;
+                cmb_AltaCursoDisponibles.Items.Clear();
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} A");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} B");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} C");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} D");
             }
         }
 
@@ -67,6 +85,12 @@ namespace Ejercicio_Practico_Colegio
                 rch_AltaCursoListaUso.Visible = true;
                 lb_AltaCursoEnUso.Visible = true;
                 lb_AltaCursoDisponible.Visible = true;
+                cmb_AltaCursoDisponibles.Visible = true;
+                cmb_AltaCursoDisponibles.Items.Clear();
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} A");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} B");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} C");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} D");
             }
         }
 
@@ -79,15 +103,18 @@ namespace Ejercicio_Practico_Colegio
                 rch_AltaCursoListaUso.Visible = true;
                 lb_AltaCursoEnUso.Visible = true;
                 lb_AltaCursoDisponible.Visible = true;
+                cmb_AltaCursoDisponibles.Visible = true;
+                cmb_AltaCursoDisponibles.Items.Clear();
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} A");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} B");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} C");
+                cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} D");
             }
         }
 
         private void FrmAltaCurso_Load(object sender, EventArgs e)
         {
-            cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} A");
-            cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} B");
-            cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} C");
-            cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} D");
+            
             lb_AltaCursoAño.Visible = false;
 
             //rdb_RegisCurso1Año.Checked = false;
