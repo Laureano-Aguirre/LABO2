@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//using Colegio;
+using Colegio;
 
 namespace Ejercicio_Practico_Colegio
 {
@@ -124,6 +124,17 @@ namespace Ejercicio_Practico_Colegio
                 cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} C");
                 cmb_AltaCursoDisponibles.Items.Add($"{lb_AltaCursoAño.Text} D");
             }
+        }
+
+        private void btn_AltaCursoRegistrar_Click(object sender, EventArgs e)
+        {
+            Curso curso = new Curso(cmb_AltaCursoDisponibles.Text);
+            MessageBox.Show("REGISTRACION EXITOSA", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //List<Curso> listaAux = new List<Curso> { };
+            //TODO : verificar si el curso ya esta en el richtextbox, que no se muestre nuevamente en el combobox
+            rch_AltaCursoListaUso.AppendText ($"{curso.Mostrar(curso.Cursos)}");
+            cmb_AltaCursoDisponibles.Items.Remove(cmb_AltaCursoDisponibles.Text);
+
         }
     }
 }

@@ -112,6 +112,7 @@
             // 
             this.rch_AltaCursoListaUso.Location = new System.Drawing.Point(478, 216);
             this.rch_AltaCursoListaUso.Name = "rch_AltaCursoListaUso";
+            this.rch_AltaCursoListaUso.ReadOnly = true;
             this.rch_AltaCursoListaUso.Size = new System.Drawing.Size(294, 146);
             this.rch_AltaCursoListaUso.TabIndex = 6;
             this.rch_AltaCursoListaUso.Text = "";
@@ -159,6 +160,7 @@
             this.btn_AltaCursoRegistrar.TabIndex = 11;
             this.btn_AltaCursoRegistrar.Text = "Registrar";
             this.btn_AltaCursoRegistrar.UseVisualStyleBackColor = true;
+            this.btn_AltaCursoRegistrar.Click += new System.EventHandler(this.btn_AltaCursoRegistrar_Click);
             // 
             // btn_AltaCursoCancelar
             // 

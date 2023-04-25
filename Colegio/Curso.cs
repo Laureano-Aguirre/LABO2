@@ -9,20 +9,21 @@ namespace Colegio
     public class Curso
     {
         List<Curso> cursos = new List<Curso>();
-        private string curso;
-        public Curso(string curso)
+        private string nombreCurso;
+        public Curso(string nombreCurso)
         {
-            this.curso = curso;
+            this.nombreCurso = nombreCurso;
             cursos.Add(this);
         }
 
-        public string Mostrar()
+        public List<Curso> Cursos { get { return cursos; } set { this.cursos = value; } }
+        public string Mostrar(List<Curso> cursos)
         {
             StringBuilder sb = new StringBuilder();
 
             foreach (Curso curso in cursos)
             {
-                sb.Append(curso.Mostrar());
+                sb.AppendLine($"{nombreCurso}");
             }
             return sb.ToString();
         }
